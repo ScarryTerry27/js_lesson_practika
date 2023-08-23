@@ -102,5 +102,8 @@ let fun = function (a, b) {
 let Arifmetika = (num, a, b) => num * fun(a, b) - 24;
 console.log(Arifmetika(6, 3, 4));
 
-let obj = {};
+let obj = { name: "hello" };
 console.log(Boolean(obj));
+
+Object.assign(obj, fibb);
+console.log(obj);
